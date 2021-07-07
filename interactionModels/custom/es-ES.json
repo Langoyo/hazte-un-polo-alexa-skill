@@ -1,0 +1,155 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hazte un polo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "dime cuáles son las reglas",
+            "cómo son las instrucciones",
+            "cuáles son las instrucciones",
+            "instrucciones",
+            "reglas",
+            "reglas del juego",
+            "cómo gano",
+            "cuándo se acaba",
+            "ayúdame",
+            "ayuda",
+            "quién gana",
+            "cómo jugamos",
+            "cómo juego",
+            "cuáles son las reglas",
+            "cuáles son las reglas del juego",
+            "dime las reglas",
+            "cómo se juega"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "fuera alexa",
+            "apaga",
+            "apaga skill",
+            "cerrar skill",
+            "cierra",
+            "cierra alexa"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "EmpezarIntent",
+          "slots": [
+            {
+              "name": "usuario",
+              "type": "nombre"
+            }
+          ],
+          "samples": [
+            "su turno {usuario}",
+            "tu turno {usuario}",
+            "dale {usuario}",
+            "{usuario}",
+            "{usuario} empiezo",
+            "{usuario} empieza",
+            "{usuario} comienzo",
+            "{usuario} comienza",
+            "comienza {usuario}",
+            "comienzo {usuario}",
+            "empiezo {usuario}",
+            "empieza {usuario}"
+          ]
+        },
+        {
+          "name": "juegoIntent",
+          "slots": [
+            {
+              "name": "opcion",
+              "type": "opcion"
+            }
+          ],
+          "samples": [
+            "{opcion}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "Tú",
+                "synonyms": [
+                  "amazon",
+                  "eco",
+                  "alexa",
+                  "usted",
+                  "tú",
+                  "Usted",
+                  "Alexa"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "Yo",
+                "synonyms": [
+                  "mi persona",
+                  "yo"
+                ]
+              }
+            }
+          ],
+          "name": "nombre"
+        },
+        {
+          "values": [
+            {
+              "id": "2",
+              "name": {
+                "value": "un polo",
+                "synonyms": [
+                  "un polo",
+                  "Un polo"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "¿Un qué?",
+                "synonyms": [
+                  "¿Un qué?",
+                  "un qué",
+                  "¿un qué?"
+                ]
+              }
+            },
+            {
+              "id": "0",
+              "name": {
+                "value": "hazte un polo",
+                "synonyms": [
+                  "hazte un polo",
+                  "haz te un polo",
+                  "Hazte un polo"
+                ]
+              }
+            }
+          ],
+          "name": "opcion"
+        }
+      ]
+    }
+  },
+  "version": "4"
+}

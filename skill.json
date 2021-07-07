@@ -1,0 +1,137 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "summary": "¿Enfréntate a Alexa en el tradicional juego hazte un polo!",
+          "examplePhrases": [
+            "Alexa abre hazte un polo",
+            "Empieza tú",
+            "¿Cuáles son las reglas?"
+          ],
+          "keywords": [
+            "porro",
+            "infinito",
+            "versus",
+            "aguantar",
+            "agilidad",
+            "fácil",
+            "sencillo",
+            "polo",
+            "helado",
+            "divertido",
+            "tradicional",
+            "difícil"
+          ],
+          "name": "hazte un polo",
+          "description": "Juego que se basa en repetir tres frases en orden: hazte un polo, un qué y un polo. En cada turno, uno dice una frase. El juego funciona por rondas: en cada ronda se incrementa en uno el número de veces que hay que repetir cada frase antes de pasar a la siguiente. ¡Desafía a Alexa y llega lo más lejos posible!\n\nEJEMPLO DE USO\n\nUsuario: Alexa, abre hazte un polo\nAlexa: Bienvenido. ¿Quién quieres que empiece?\nUsuario: Empieza tú\nAlexa: Recibido, hazte un polo\nUsuario: ¿Un qué?\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: ¿Un qué?\nAlexa: ¿Un qué?\nUsuario: Un polo\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: Hazte un polo\nAlexa ¿Un qué?\n...",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "es-US": {
+          "summary": "¿Enfréntate a Alexa en el tradicional juego hazte un polo!",
+          "examplePhrases": [
+            "Alexa abre hazte un polo",
+            "Empieza tú",
+            "¿Cuáles son las reglas?"
+          ],
+          "keywords": [
+            "porro",
+            "infinito",
+            "versus",
+            "aguantar",
+            "agilidad",
+            "fácil",
+            "sencillo",
+            "polo",
+            "helado",
+            "divertido",
+            "tradicional",
+            "difícil"
+          ],
+          "name": "hazte un polo",
+          "description": "Juego que se basa en repetir tres frases en orden: hazte un polo, un qué y un polo. En cada turno, uno dice una frase. El juego funciona por rondas: en cada ronda se incrementa en uno el número de veces que hay que repetir cada frase antes de pasar a la siguiente. ¡Desafía a Alexa y llega lo más lejos posible!\n\nEJEMPLO DE USO\n\nUsuario: Alexa, abre hazte un polo\nAlexa: Bienvenido. ¿Quién quieres que empiece?\nUsuario: Empieza tú\nAlexa: Recibido, hazte un polo\nUsuario: ¿Un qué?\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: ¿Un qué?\nAlexa: ¿Un qué?\nUsuario: Un polo\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: Hazte un polo\nAlexa ¿Un qué?\n...",
+          "smallIconUri": "file://assets/images/es-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "¿Enfréntate a Alexa en el tradicional juego hazte un polo!",
+          "examplePhrases": [
+            "Alexa abre hazte un polo",
+            "Empieza tú",
+            "¿Cuáles son las reglas?"
+          ],
+          "keywords": [
+            "porro",
+            "infinito",
+            "versus",
+            "aguantar",
+            "agilidad",
+            "fácil",
+            "sencillo",
+            "polo",
+            "helado",
+            "divertido",
+            "tradicional",
+            "difícil"
+          ],
+          "name": "hazte un polo",
+          "description": "Juego que se basa en repetir tres frases en orden: hazte un polo, un qué y un polo. En cada turno, uno dice una frase. El juego funciona por rondas: en cada ronda se incrementa en uno el número de veces que hay que repetir cada frase antes de pasar a la siguiente. ¡Desafía a Alexa y llega lo más lejos posible!\n\nEJEMPLO DE USO\n\nUsuario: Alexa, abre hazte un polo\nAlexa: Bienvenido. ¿Quién quieres que empiece?\nUsuario: Empieza tú\nAlexa: Recibido, hazte un polo\nUsuario: ¿Un qué?\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: ¿Un qué?\nAlexa: ¿Un qué?\nUsuario: Un polo\nAlexa: Un polo\nUsuario: Hazte un polo\nAlexa: Hazte un polo\nUsuario: Hazte un polo\nAlexa ¿Un qué?\n...",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "es-ES",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Alexa abre hazte un polo\nDime las reglas\nEmpieza tú\nUn qué\nHazte un polo\nun polo",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:578952798601:function:8c612100-4586-4f6b-8c68-fd1e4cbffc37:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:578952798601:function:8c612100-4586-4f6b-8c68-fd1e4cbffc37:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:578952798601:function:8c612100-4586-4f6b-8c68-fd1e4cbffc37:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:578952798601:function:8c612100-4586-4f6b-8c68-fd1e4cbffc37:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "es-ES": {},
+        "es-US": {},
+        "es-MX": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
